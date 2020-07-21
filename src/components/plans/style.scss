@@ -1,0 +1,256 @@
+.cards-section{
+    .no-offer{
+        margin-top: 4em !important;
+    }
+    .card-plan{
+        // text-align: center;
+        // margin: auto;
+
+        .card{
+            // margin: auto;
+            width: 100%;
+        }
+    }
+
+    .card-header{
+        background-color: $AMID_PRIMARY;
+        min-height: 5em;
+        padding-top: 8%;
+        p{
+            text-align: center;
+            color: white;
+        }
+    }
+
+   
+
+   .content{
+       border: 0 !important;
+        padding-#{$start}: 2em !important;
+        padding-#{$end}: 2em !important;
+        padding-bottom: 0 !important;
+       .description{
+           border-bottom: solid 1px #E1E4EA;
+       }
+   } 
+   .last-content{
+       margin-bottom: 7em !important;
+   }
+
+   .btn-content{
+       text-align: center;
+       margin-top: 2em !important;
+       margin-bottom: 2em !important;
+   .button{
+      
+       padding-#{$start}: 2em;
+       padding-#{$end}: 2em;
+       background-color: #933FA2;
+       color: white;
+        border-radius: 25px;
+        }
+    }
+    
+.price-section{
+    background-color: #F4F7FE;
+    padding: 2em;
+    p{
+        text-align: center;
+    }
+    .price{
+        color: #933FA2;
+        font-size: 25px;
+    }
+    .toggle{
+        span:last-child{
+            margin-#{$start}: 1em;
+        }
+        span:not(:last-child){
+            margin-#{$end}: 1em;
+
+        }
+    }
+}
+
+@media  (max-width: 991px) {
+    .plan-3{
+        margin-#{$start}: 30%;
+
+    }
+}
+@media  (max-width: 767px) {
+    .plan-3{
+        margin-#{$start}: 0%;
+    }
+    .no-offer{
+        margin-top:0em !important;
+    }
+    .card-plan{
+        margin-bottom: 2em !important;
+    }
+    .card-header{
+        padding-top: 4%;
+    }
+    .modal-content{
+    .underline{
+        width: 10% !important;
+    }
+}
+
+
+}
+
+
+}
+
+
+.modal-content{
+    .underline{
+        width: 4%;
+        @media  (max-width: 767px) {
+        
+            width: 10% ;
+    }
+    }
+   
+}
+.price-section-modal{
+    width: 65%;
+    margin: auto;
+    margin-top: 2em;
+    .price{
+        color: #933FA2;
+        font-size: 25px;
+        margin-#{$end}: 23%;
+        font-weight: 600;
+
+    }
+    .toggle{
+        display: inline-block;
+        font-size: 18px;
+        span:last-child{
+            margin-#{$start}: 1em;
+        }
+        span:not(:last-child){
+            margin-#{$end}: 1em;
+
+        }
+
+        .year-offer{
+            color: $AMID_PRIMARY;
+            font-weight: 600;
+        }
+
+        
+        
+       
+
+}
+
+.payment-desc{
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    font-size: 17px;
+}
+.row{
+    img{
+        max-width: 200% !important; 
+        width: 170%;
+        @media  (max-width: 767px) {
+        
+            max-width: 100vw !important; 
+            width: 7vw;
+    }
+    }
+}
+}
+
+.form{
+    width: 65%;
+    margin: auto;
+    margin-top: 2em;
+
+ 
+    .icon{
+        img{
+            width: 9%;
+            height: 16%;
+            position: relative;
+            #{$start}: -51px;
+            bottom: -7px;
+            @media  (max-width: 767px) {
+            width: 7vw;
+
+            }
+        }
+        input{
+            width: 100% !important;
+        }
+    }
+    .terms-container{
+        margin-top: 2em !important;
+        margin-bottom: 2em !important;
+    }
+    .checkbox{
+        margin-#{$end}: 1em;
+      
+    }
+    .accept-term{
+        color:#707070
+    }
+    .terms{
+        color: #293377
+    }
+
+    .button{
+        background-color: $AMID_PRIMARY;
+        border-radius: 25px;
+        color: white;
+        margin-bottom: 3em;
+    }
+    input:checked~label:after{
+        color: $AMID_PRIMARY !important;
+        
+    }
+}
+
+.ui.toggle.checkbox input:checked~label:before
+     {
+    background-color: $AMID_PRIMARY !important;
+}
+
+.credit-check{
+    input:checked~label:after 
+     {
+    background-color: $AMID_PRIMARY !important;
+}
+
+}
+
+
+.dimmer{
+    background-color: rgba(62,71,132,.85) !important;
+}
+
+.modal{
+    [dir=rtl] &{
+        text-align: right;
+        }
+        input{
+            [dir=rtl] &{
+                text-align: right;
+                }
+        }
+}
+
+
+
+@media  (max-width: 767px) {
+    .fields{
+        input{
+            margin-bottom: 1em !important;
+        }
+    }
+
+    }

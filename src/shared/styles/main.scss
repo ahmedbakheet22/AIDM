@@ -1,0 +1,14 @@
+$AMID_PRIMARY:#303F9F;
+$mobileSize:480px;
+$tabletSize:768px;
+html{
+    @media(max-width:$tabletSize){
+        overflow-x: hidden !important;
+    }
+}
+
+@import '../../components/page-header/style.scss';
+@import '../../components/page-footer/style.scss';
+@import '../../components/plans/style.scss';
+@import '../../layouts/main-layout.scss';
+

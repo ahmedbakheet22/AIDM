@@ -1,0 +1,22 @@
+$start:right;
+$end:left;
+html html *,body,h1, h2, h3, h4, h5,.ui *, .ui.button,.ui.form input,.swal-button{
+     &:not(.icon){
+font-family: 'Cairo', sans-serif !important;
+     }
+}
+
+.lang-switch{
+    padding-#{$end}:20px;
+    float: #{$end};
+    margin-#{$end}:1em;
+
+
+}
+@import 'main.scss';
+
+.ui.selection.dropdown>.delete.icon,
+.ui.selection.dropdown>.dropdown.icon,
+.ui.selection.dropdown>.search.icon{
+    right: auto;
+}

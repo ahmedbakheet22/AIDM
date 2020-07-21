@@ -1,0 +1,34 @@
+
+.header-section{
+    padding-bottom: 0 !important; 
+}
+.content-section{
+    background-color: #F4F7FE;
+    padding: 4em !important;
+    .section-text{
+        text-align: center;
+    }
+}
+
+    .upgrade-text{
+        text-align: center;
+        color: #293377;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .underline{
+        border-top: 3px solid $AMID_PRIMARY;
+        width: 2%;
+        text-align: center;
+        margin: 0 auto;
+        @media  (max-width: 767px) {
+            width: 10%;
+    }
+    }
+
+   
+.lang-switch{
+    span{
+        color: white;
+    }
+}

@@ -1,0 +1,26 @@
+.footer-section{
+        padding: 0 !important;
+    .footer-head{
+        background-color: #F4F7FE;
+        padding: 2em;
+
+    }
+  
+}
+.footer-bottom{
+    background-color: $AMID_PRIMARY;
+    color: white;
+    padding-top:2em !important ;
+    padding-bottom:2em !important ;
+
+    .p-body{
+        color: #ABB3BC;
+    }
+}
+@media  (max-width: 767px) {
+ .copyright{
+    margin-top: 3em !important;
+    text-align: center !important;
+ }
+}
+

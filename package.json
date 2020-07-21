@@ -1,0 +1,80 @@
+{
+  "name": "aidm-design",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "12.6.8",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.5",
+    "@types/react-router-dom": "^4.3.4",
+    "@types/redux-logger": "^3.0.7",
+    "formsy-react": "^1.1.5",
+    "formsy-semantic-ui-react": "^0.3.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-redux-i18n": "^1.9.3",
+    "react-router": "^5.0.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "3.0.1",
+    "react-transition-group": "^4.2.1",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^6.1.1",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.22.9",
+    "semantic-ui-react": "^0.87.3",
+    "typescript": "^3.5.3",
+    "universal-cookie": "^4.0.2",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "scripts": {
+    "bundle": "webpack",
+    "test": "jest",
+    "start": "webpack-dev-server --mode development --progress --hot",
+    "build": "webpack --mode production",
+    "check-types": "tsc",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@svgr/webpack": "^4.3.2",
+    "@testing-library/react": "^10.0.6",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.1.0",
+    "file-loader": "^4.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "npm-run-all": "^4.1.5",
+    "react-router-dom": "^5.0.1",
+    "react-test-renderer": "^16.13.1",
+    "redux-mock-store": "^1.5.4",
+    "sass-loader": "^7.1.0",
+    "socket.io-client": "^2.3.0",
+    "style-loader": "^0.23.1",
+    "tslint": "^5.18.0",
+    "tslint-immutable": "^6.0.1",
+    "url-loader": "^2.1.0"
+  }
+}
